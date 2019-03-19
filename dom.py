@@ -90,10 +90,10 @@ img = np.zeros((630, 1300, 3), np.uint8)
 
 soluciones = {}
 
-n = 6
+n = 8
 images = 0
 png = ".png"
-name = "Sol"
+name = "ocho"
 s = hallarPerm(n)
 x = 0
 y = 0
