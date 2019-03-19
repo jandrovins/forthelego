@@ -2,6 +2,7 @@
 """
 Author: Vincent A. Arcila L.
 Mail: vaarcilal@eafit.edu.co
+Date: March 14th 2019.
 """
 
 import numpy as np
