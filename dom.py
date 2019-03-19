@@ -1,13 +1,11 @@
 #!/home/vincent/miniconda3/envs/datos/bin/python
+"""
+Author: Vincent A. Arcila L.
+Mail: vaarcilal@eafit.edu.co
+"""
+
 import numpy as np
 import cv2 as cv
-
-x = 0
-y = 0
-
-img = np.zeros((630, 1300, 3), np.uint8)
-
-soluciones = {}
 
 def vertical(x, y):
     cv.rectangle(img, (x, y), (x+50, y+100), (0, 255, 0), 3)
@@ -83,7 +81,15 @@ def longitudRestante(x):
     return 1300 - x
 
 
-n = 3
+
+x = 0
+y = 0
+
+img = np.zeros((630, 1300, 3), np.uint8)
+
+soluciones = {}
+
+n = 6
 images = 0
 png = ".png"
 name = "Sol"
